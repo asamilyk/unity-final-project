@@ -36,7 +36,6 @@ public class InventoryManager : MonoBehaviour
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
-            print(obj.transform);
             var itemName = obj.transform.Find("ItemName").GetComponent<TMP_Text>();
             var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
 
@@ -51,14 +50,14 @@ public class InventoryManager : MonoBehaviour
         {
             foreach (Transform item in ItemContent)
             {
-                item.Find("RemoveButtom").gameObject.SetActive(true);
+                item.Find("RemoveButton").gameObject.SetActive(true);
             }
         }
         else
         {
             foreach (Transform item in ItemContent)
             {
-                item.Find("RemoveButtom").gameObject.SetActive(false);
+                item.Find("RemoveButton").gameObject.SetActive(false);
             }
         }
     }
