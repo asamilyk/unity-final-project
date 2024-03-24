@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68bdb69e373c1e4580f9368550f58f4, type: 3}
   m_Name: Groot
   m_EditorClassIdentifier: 
-  id: 0
-  itemName: 
-  value: 0
-  icon: {fileID: 0}
+  id: 1
+  itemName: Groot
+  value: 15
+  icon: {fileID: 21300000, guid: f5d1ae1bf695d2548ab6700571846ca0, type: 3}
