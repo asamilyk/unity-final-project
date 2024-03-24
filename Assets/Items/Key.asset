@@ -15,4 +15,4 @@ MonoBehaviour:
   id: 3
   itemName: Key
   value: 5
-  icon: {fileID: 21300000, guid: 58040cc1eb0985f459992d9aa88895e2, type: 3}
+  icon: {fileID: 21300000, guid: 546105c5ed5a5784d9c6c672cbbc4cd2, type: 3}

@@ -15,4 +15,4 @@ MonoBehaviour:
   id: 2
   itemName: Vase
   value: 10
-  icon: {fileID: 21300000, guid: e9107bc45abc9b84da41e8f093141536, type: 3}
+  icon: {fileID: 21300000, guid: 877066ead538e8b41a7ae143d6af9c1b, type: 3}
