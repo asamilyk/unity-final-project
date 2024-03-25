@@ -30,5 +30,14 @@
 - Внесение изменений в интерфейс для лучшей визуализации и удобства пользователя.
 - Реализация системы сохранения и загрузки состояния инвентаря между игровыми сеансами.
 
+
 ## Автор
 Самилык Анастасия БПИ229
+
+## Вид игры
+![image](https://github.com/asamilyk/unity-final-project/assets/61018491/27c369e5-fcb2-45ed-a7aa-ba90aa179304)
+![image](https://github.com/asamilyk/unity-final-project/assets/61018491/5f24f8b0-f26c-4332-8021-232a5751be1d)
+![image](https://github.com/asamilyk/unity-final-project/assets/61018491/feee2c56-3b29-49b7-b0db-1d42589d6625)
+![image](https://github.com/asamilyk/unity-final-project/assets/61018491/03075c68-6e38-41b9-bbe0-8cbffdd66ab1)
+
+
