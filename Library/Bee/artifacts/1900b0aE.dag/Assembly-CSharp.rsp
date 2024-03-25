@@ -357,6 +357,7 @@
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemController.cs"
 "Assets/Scripts/ItemPickup.cs"
+"Assets/Scripts/Player.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
