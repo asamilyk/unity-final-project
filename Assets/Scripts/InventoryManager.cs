@@ -52,6 +52,9 @@ public class InventoryManager : MonoBehaviour
         SetInventoryItems();
     }
 
+    /// <summary>
+    /// button to make objects removable
+    /// </summary>
     public void EnableItemsRemove()
     {
         if (EnableRemove.isOn)

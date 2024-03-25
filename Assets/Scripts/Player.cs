@@ -19,12 +19,20 @@ public class Player : MonoBehaviour
         Instance = this;
     }
 
+    /// <summary>
+    /// increasing hero's health
+    /// </summary>
+    /// <param name="value"></param>
     public void IncreaseHealth(int value)
     {
         Health += value;
         HealthText.text = $"HP:{Health}";
     }
     
+    /// <summary>
+    /// increasing hero's exp
+    /// </summary>
+    /// <param name="value"></param>
     public void IncreaseExp(int value)
     {
         Exp += value;

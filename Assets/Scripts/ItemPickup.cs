@@ -12,6 +12,9 @@ public class ItemPickup : MonoBehaviour
         Destroy(gameObject);
     }
 
+    /// <summary>
+    /// method to add objects to manager while clicking mouse
+    /// </summary>
     private void OnMouseDown()
     {
         Pickup();

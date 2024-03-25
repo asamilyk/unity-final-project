@@ -13,11 +13,18 @@ public class InventoryItemController : MonoBehaviour
         Destroy(gameObject);
     }
 
+    /// <summary>
+    /// adding item to panel
+    /// </summary>
+    /// <param name="newItem"></param>
     public void AddItem(Item newItem)
     {
         item = newItem;
     }
 
+    /// <summary>
+    /// using item and getting profit
+    /// </summary>
     public void UseItem()
     {
         switch (item.itemType)
