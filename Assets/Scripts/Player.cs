@@ -22,12 +22,12 @@ public class Player : MonoBehaviour
     public void IncreaseHealth(int value)
     {
         Health += value;
-        HealthText.text = $"$HP:{Health}";
+        HealthText.text = $"HP:{Health}";
     }
     
     public void IncreaseExp(int value)
     {
         Exp += value;
-        ExpText.text = $"$HP:{Exp}";
+        ExpText.text = $"EXP:{Exp}";
     }
 }

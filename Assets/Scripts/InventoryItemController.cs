@@ -17,4 +17,22 @@ public class InventoryItemController : MonoBehaviour
     {
         item = newItem;
     }
+
+    public void UseItem()
+    {
+        switch (item.itemType)
+        {
+            case Item.ItemType.Groot:
+                Player.Instance.IncreaseHealth(item.value);
+                Player.Instance.IncreaseExp(item.value);
+                break;
+            case Item.ItemType.Key:
+                Player.Instance.IncreaseExp(item.value);
+                break;
+            case Item.ItemType.Vase:
+                Player.Instance.IncreaseHealth(item.value);
+                break;
+        }
+        RemoveItem();
+    }
 }
